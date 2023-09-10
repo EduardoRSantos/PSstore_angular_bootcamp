@@ -1,0 +1,17 @@
+.container__menu-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.item__menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    list-style: none;
+
+}
